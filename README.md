@@ -21,7 +21,7 @@ A directory of private security companies built only from official lists. It rec
 - **20,636 entries in all.** Most are small UK companies: 16,923 live UK companies give private security as an activity, out of 5,704,712 live companies on the register. Two thirds of them (11,246) were incorporated in 2020 or later, and 2,254 had a proposal to strike them off the register.
 - **The ICoCA list is small and mostly outside the West.** Of 198 member companies, 113 are certified members, 21 members and 64 affiliates. The most common headquarters are Iraq (42), the United Kingdom (16), Somalia (11), Nigeria (10) and the United States (9).
 - **The lists rarely overlap**, except in the UK. 523 names appear on more than one list in the same country:
-  - 495 of the 719 SIA Approved Contractors have the same name as a UK company coded for private security.
+  - 493 of the 719 SIA Approved Contractors have the same name as a UK company coded for private security.
   - 20 of the 198 ICoCA members match another list, including 10 that also hold US guard contracts under the same name (among them Triple Canopy, SOC, Michael Stapleton Associates and Erinys Iraq).
   - Only 19 of the 2,744 US guard-contract recipients match another list.
 
