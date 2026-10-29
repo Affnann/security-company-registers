@@ -1,0 +1,13 @@
+{
+  "title": "security-company-registers: private security companies on five official lists (ICoCA, UK SIA, UK Companies House, SEC and US federal guard contracts)",
+  "upload_type": "dataset",
+  "description": "<p>A directory of private security companies built only from official lists, one row per company per list (20,636 rows): the 198 member companies of the International Code of Conduct Association (ICoCA), the 719 UK Security Industry Authority Approved Contractors, the 16,923 live UK companies with activity code SIC 80100 (private security activities) in the Companies House register, 52 companies filing with the US Securities and Exchange Commission under industry code 7381 (detective, guard and armored car services), and the 2,744 recipients of US federal guard-service contracts in fiscal years 2008 to 2026 (from the Mercenomics dataset us-guard-spending). Each entry keeps the list's own identifier, status and dates. Entries with the same name, after legal-form words are removed, and the same country are linked across lists (523 groups of linked entries); a link is a name match, not proof that the entries are the same legal entity. UK locations are given only as post town and postcode district; no personal details are included. The lists measure different things, and the limits are documented in the repository.</p>",
+  "creators": [
+    {"name": "Azom, Kazi Affnann", "affiliation": "Mercenomics", "orcid": "0009-0001-5998-7642"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["private security", "security companies", "ICoCA", "Security Industry Authority", "Companies House", "company registers", "United Kingdom", "United States"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.23750993", "relation": "isDerivedFrom", "scheme": "doi"}
+  ]
+}

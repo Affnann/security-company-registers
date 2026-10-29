@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# Companies House source zips (about 470 MB) are fetched by code/01_download.py; the rows used are kept
+data/raw/companies_house/*.zip

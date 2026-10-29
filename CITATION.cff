@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "security-company-registers: private security companies on five official lists (ICoCA, UK SIA, UK Companies House, SEC and US federal guard contracts)"
+abstract: "A directory of private security companies built only from official lists: ICoCA member companies, UK Security Industry Authority Approved Contractors, live UK companies with activity code 80100 (private security activities), SEC filers under industry code 7381 and recipients of US federal guard-service contracts (FY2008-2026), with each list's identifier, status and dates, and links between entries with the same name and country."
+type: dataset
+authors:
+  - family-names: "Azom"
+    given-names: "Kazi Affnann"
+    orcid: "https://orcid.org/0009-0001-5998-7642"
+    affiliation: "Mercenomics"
+version: "1.0.0"
+date-released: "2026-10-29"
+repository-code: "https://github.com/Affnann/security-company-registers"
+license: CC-BY-4.0
+keywords:
+  - private security
+  - security companies
+  - ICoCA
+  - Security Industry Authority
+  - Companies House
+  - company registers

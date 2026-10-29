@@ -1,0 +1,84 @@
+{
+ "icoca/icoca_member_companies.json": {
+  "url": "https://icoca.ch/wp-json/members/v1/get-members?entityTypes=Company&language=en_US",
+  "bytes": 353479,
+  "sha256": "1e96f98d1c681da0fc1f1ca6425c7edff3ca4232c7f21abe43511079e5b50379",
+  "records": 198,
+  "accessed": "2026-10-29"
+ },
+ "sec/sec_sic7381_companies.jsonl": {
+  "url": "https://data.sec.gov/submissions/CIK##########.json",
+  "records": 52,
+  "note": "Selected fields from each company's EDGAR submissions record. first_filing_date is the earliest date in the recent-filings list only",
+  "accessed": "2026-10-29"
+ },
+ "us_guard_contracts/s206_recipients.csv": {
+  "url": "https://github.com/Affnann/us-guard-spending/raw/v1.0.0/data/clean/s206_transactions.csv.gz",
+  "source_sha256": "8bd7cba552f8acdd68d43425de5f8678c0664d40d93d7a69945a338ea2efecda",
+  "records": 2744,
+  "note": "One row per recipient Unique Entity ID (or name where no ID is given), placeholders left out",
+  "accessed": "2026-10-29"
+ },
+ "companies_house/companies_house_sic80100.csv.gz": {
+  "url": "https://download.companieshouse.gov.uk/en_output.html",
+  "source_files": {
+   "BasicCompanyData-2026-10-01-part1_7.zip": {
+    "bytes": 73166493,
+    "sha256": "7249da9c557f3d381b7b86f6f3284fd33fe84441e957a86df7612c2ca3286d89"
+   },
+   "BasicCompanyData-2026-10-01-part2_7.zip": {
+    "bytes": 73760929,
+    "sha256": "e9c8ec4decd0a6d5ed065fea1417f3cb9cc975af6c595a4cd7f0c6d5d421bb5e"
+   },
+   "BasicCompanyData-2026-10-01-part3_7.zip": {
+    "bytes": 73610038,
+    "sha256": "fe3d0279df6e384194417af6b1995c949ae9715ffcd57fab6d4fbaaef75ffadd"
+   },
+   "BasicCompanyData-2026-10-01-part4_7.zip": {
+    "bytes": 73772663,
+    "sha256": "2c5f8e09c24962eccac8f8c98bff014aabe8b7c0d7a50cebff62f88bab89ca13"
+   },
+   "BasicCompanyData-2026-10-01-part5_7.zip": {
+    "bytes": 73531039,
+    "sha256": "5ec6845cfc2de1071a651083d60442d7570a65ca34a3054deca3273d7117479c"
+   },
+   "BasicCompanyData-2026-10-01-part6_7.zip": {
+    "bytes": 73591961,
+    "sha256": "df7b6f740d5fa4cfec48bac0c3984cb146a2a7abadaa3c00f3c197db96682998"
+   },
+   "BasicCompanyData-2026-10-01-part7_7.zip": {
+    "bytes": 52565573,
+    "sha256": "8c92bff4b20a47828d4ddb850c3bf9e8fbc7e44c6f979f40bde2d877e49c685b"
+   }
+  },
+  "live_companies_read": 5704712,
+  "records": 16923,
+  "note": "Rows of the Free Company Data Product with SIC 80100 among the company's SIC codes; street address lines dropped",
+  "accessed": "2026-10-29"
+ },
+ "sia/sia_register_of_approved_contractors.html": {
+  "url": "https://www.services.sia.homeoffice.gov.uk/Pages/acs-roac.aspx?all",
+  "bytes": 455309,
+  "sha256": "67f32dbbe173699dca5f7e1a1e9b21c83b144e0e9d1d97398057acdf8f6ff75b",
+  "records": 719,
+  "accessed": "2026-10-29"
+ },
+ "sia/sia_approved_contractors.jsonl": {
+  "url": "https://www.services.sia.homeoffice.gov.uk/Pages/acs-roac.aspx?contractor=REFERENCE",
+  "records": 719,
+  "note": "Fields read from each contractor's entry page; phone numbers and street addresses are not kept",
+  "accessed": "2026-10-29"
+ },
+ "sec/edgar_state_country_codes.json": {
+  "url": "https://www.sec.gov/submit-filings/filer-support-resources/edgar-state-country-codes",
+  "records": 309,
+  "accessed": "2026-10-29"
+ },
+ "sec/sec_sic7381_ciks.txt": {
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&SIC=7381&type=&dateb=&owner=include&start=0&count=100",
+  "records": 52,
+  "listed_by_sec": 53,
+  "note": "1 filer registered under a person's name, not a company, is left out",
+  "accessed": "2026-10-29"
+ }
+}
