@@ -1,5 +1,7 @@
 # security-company-registers
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23772046.svg)](https://doi.org/10.5281/zenodo.23772046)
+
 Published by [Mercenomics](https://mercenomics.org), an independent data archive on the business of force for hire.
 
 A directory of private security companies built only from official lists. It records which list each company is on, with the list's own identifier, status and dates, and marks the companies that appear on more than one list. It uses five lists:
@@ -118,4 +120,9 @@ Sources, download dates and terms are in [`data/README.md`](data/README.md). Cod
 
 ## Cite
 
-See [`CITATION.cff`](CITATION.cff).
+Azom, Kazi Affnann (2026). *security-company-registers: private security companies on five official lists (ICoCA, UK SIA, UK Companies House, SEC and US federal guard contracts)* (Version v1.0.0) [Data set]. Mercenomics. https://doi.org/10.5281/zenodo.23772047
+
+- This version (v1.0.0): [10.5281/zenodo.23772047](https://doi.org/10.5281/zenodo.23772047)
+- All versions (always points to the latest): [10.5281/zenodo.23772046](https://doi.org/10.5281/zenodo.23772046)
+
+See also [`CITATION.cff`](CITATION.cff).
